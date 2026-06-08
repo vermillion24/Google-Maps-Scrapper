@@ -6,7 +6,7 @@ This Python script utilizes the Playwright library to perform web scraping and d
 1. Install Python dependencies:
    pip install -r requirements.txt
    
-2.Install Playwright browsers:
+ 2.Install Playwright browsers:
    playwright install
 
 ## Usage
@@ -24,3 +24,4 @@ python main.py -s "Coffee shops on the moon" -t 20
 
 ## Notes
 - Avoid running too many scrapes in a short period to prevent being blocked by Google.
+- Also check your browser path on the main.py file most people chrome is located at C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe. it is located on line 116(it might change)
